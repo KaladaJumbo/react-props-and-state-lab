@@ -60,7 +60,7 @@ descendants:
     `/api/pets` with an **optional query parameter** to get your data.
   - Use `App`'s state.filters to control/update this parameter
   - If the `type` is `'all'`, send a request to `/api/pets`
-  - If the `type` is `'cat'`, send a request to `/api/pets?type=cat`. Do the
+  - If the `type` is `'cat'`, send a request to`/api/pets?type=cat` . Do the
     same thing for `dog` and `micropig`.
   - The pet data received will include information on individual pets and their
     adoption status.
